@@ -1,4 +1,4 @@
-module github.com/ping40/fabric_ledger_reader
+module github.com/robinsonxie/ledgerreader
 
 go 1.12
 
