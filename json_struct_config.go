@@ -1,4 +1,4 @@
-package main
+package ledgerreader
 
 type ConfigEnvelope struct {
 	Config     *Config               `protobuf:"bytes,1,opt,name=config,proto3" json:"config,omitempty"`

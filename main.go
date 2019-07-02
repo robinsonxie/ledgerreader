@@ -1,4 +1,4 @@
-package main
+package ledgerreader
 
 import (
 	"bufio"
@@ -66,7 +66,7 @@ func main() {
 				break
 			} else {
 				if block.Header.Number >= *numberFrom && block.Header.Number <= *numberEnd {
-					showBlock(block)
+					ShowBlock(block)
 				}
 			}
 		}

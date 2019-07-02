@@ -1,4 +1,4 @@
-package main
+package ledgerreader
 
 import (
 	"github.com/hyperledger/fabric/protos/peer"

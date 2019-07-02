@@ -1,4 +1,4 @@
-package main
+package ledgerreader
 
 import (
 	"encoding/json"
@@ -10,7 +10,7 @@ import (
 	"github.com/hyperledger/fabric/protos/common"
 )
 
-func showBlock(block *common.Block) {
+func ShowBlock(block *common.Block) {
 
 	localBlock := &Block{
 		Header: convertMyBlockHeader(block.Header),
