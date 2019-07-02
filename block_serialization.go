@@ -7,6 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package ledgerreader
 
 import (
+
 	ledgerutil "github.com/hyperledger/fabric/common/ledger/util"
 	"github.com/hyperledger/fabric/protos/common"
 	"github.com/hyperledger/fabric/protoutil"
